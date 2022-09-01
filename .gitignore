@@ -1,5 +1,6 @@
 .env
 *.log
+logs
 *.csv
 __pycache__/
 .vscode
