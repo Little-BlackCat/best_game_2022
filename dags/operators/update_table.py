@@ -7,7 +7,7 @@ from helpers.execute_values import execute_values
 
 def update_table():
     conn = psycopg2.connect(
-	    dbname = os.getenv("dbname"),
+	dbname = os.getenv("dbname"),
         user = os.getenv("user"),
         password = os.getenv("password"),
         host = os.getenv("host"),
