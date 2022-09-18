@@ -27,15 +27,11 @@ The Extract, Transform, Load process (short: **ETL**) describes the steps betwee
 
 Create database in pgAdmin4.
 
-<<<<<<< HEAD
 ![Create database](https://github.com/Little-BlackCat/best_game_2022/blob/main/Pics/Create%20Database.JPG)
-=======
-(https://github.com/Little-BlackCat/best_game_2022/blob/main/Pics/Create%20Database.JPG)
->>>>>>> d97d4c4b145d76098835bd0da489c24473894699
 
 **step 2 : Extraction**
 
-Extract data by api call in reference [1](https://rawg.io/). Extract data from web by webscraping in reference [2](https://www.metacritic.com/) and [3](https://www.imdb.com/?ref_=nv_home). 
+Next, create the data extractor Python scripts. The goal of these scripts are to create a data frame that can be loaded into warehouse using the PostgreSQL-connector-Python library. The full scripts file are found in [dags folder](https://github.com/Little-BlackCat/best_game_2022/tree/main/dags). 
 
 ### Reference
 1. <https://rawg.io/>
