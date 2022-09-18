@@ -52,6 +52,7 @@ For this step create another script that will communicate with tables. the scrip
 The full dag script can be found [here](https://github.com/Little-BlackCat/best_game_2022/blob/main/dags/list_best_game_2022.py).
 
 Ready to run the project. Follow step to run from [here](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
+
 ---
 
 ### Reference
