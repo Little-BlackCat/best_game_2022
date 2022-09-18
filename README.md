@@ -31,7 +31,7 @@ Create database in pgAdmin4.
 
 **step 2 : Extraction**
 
-Next, create the data extractor Python scripts. The goal of these scripts are to create a data frame that can be loaded into warehouse using the PostgreSQL-connector-Python library. The full scripts file are found in [dags folder](https://github.com/Little-BlackCat/best_game_2022/tree/main/dags). 
+Next, create the data extractor Python scripts. The goal of these scripts are to create a data frame that can be loaded into warehouse using the PostgreSQL-connector-Python library. The full scripts file are found in [dags folder (helper and operators)](https://github.com/Little-BlackCat/best_game_2022/tree/main/dags). 
 
 ### Reference
 1. <https://rawg.io/>
