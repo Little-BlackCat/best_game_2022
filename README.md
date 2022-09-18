@@ -27,11 +27,7 @@ The Extract, Transform, Load process (short: **ETL**) describes the steps betwee
 
 Create database in pgAdmin4.
 
-<<<<<<< HEAD
 ![Create database](https://github.com/Little-BlackCat/best_game_2022/blob/main/Pics/Create%20Database.JPG)
-=======
-(https://github.com/Little-BlackCat/best_game_2022/blob/main/Pics/Create%20Database.JPG)
->>>>>>> d97d4c4b145d76098835bd0da489c24473894699
 
 **step 2 : Extraction**
 
