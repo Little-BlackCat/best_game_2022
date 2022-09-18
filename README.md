@@ -15,6 +15,19 @@ In this project, it's my first time to build ETL, I will take a few tools that I
 
 The Extract, Transform, Load process (short: **ETL**) describes the steps between collection data from various sources to the point where it can finally be stored in a *data warehouse* solution.
 
+### Used Technologies
+- Docker and Docker-compose
+- Airflow
+- Python
+- Visual studio code 
+- pgAdmin 4
+
+### Implementation
+**step 1**
+Create database in pgAdmin4.
+
+**step 2 : Extraction**
+Extract data from web by webscraping in reference [2](https://www.metacritic.com/) and [3](https://www.imdb.com/?ref_=nv_home). Extract data by api call in reference [1](https://rawg.io/) 
 ### Reference
 1. <https://rawg.io/>
 2. <https://www.metacritic.com/>
