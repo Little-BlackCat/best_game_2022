@@ -29,7 +29,7 @@ Create database in pgAdmin4.
 
 ![Create database](https://github.com/Little-BlackCat/best_game_2022/blob/main/Pics/Create%20Database.JPG)
 
-Create Python script to build table and schemas for receiving data from extraction. The full script file is in dags folder [(helpers-->create_tables.py)](https://github.com/Little-BlackCat/best_game_2022/blob/main/dags/helpers/create_tables.py).
+Then, create Python script to build table and schemas for receiving data from extraction. The full script file is in dags folder [(helpers-->create_tables.py)](https://github.com/Little-BlackCat/best_game_2022/blob/main/dags/helpers/create_tables.py).
 
 **step 2 : Extraction**
 
