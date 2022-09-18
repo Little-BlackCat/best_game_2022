@@ -27,6 +27,8 @@ The Extract, Transform, Load process (short: **ETL**) describes the steps betwee
 
 Create database in pgAdmin4.
 
+[Create database](/Pics/Create%20Database.JPG)
+
 **step 2 : Extraction**
 
 Extract data by api call in reference [1](https://rawg.io/). Extract data from web by webscraping in reference [2](https://www.metacritic.com/) and [3](https://www.imdb.com/?ref_=nv_home). 
