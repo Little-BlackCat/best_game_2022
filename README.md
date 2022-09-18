@@ -29,8 +29,8 @@ Create database in pgAdmin4.
 
 **step 2 : Extraction**
 
-Extract data from web by webscraping in reference [2](https://www.metacritic.com/) and [3](https://www.imdb.com/?ref_=nv_home). Extract data by api call in reference [1](https://rawg.io/).
- 
+Extract data by api call in reference [1](https://rawg.io/). Extract data from web by webscraping in reference [2](https://www.metacritic.com/) and [3](https://www.imdb.com/?ref_=nv_home). 
+
 ### Reference
 1. <https://rawg.io/>
 2. <https://www.metacritic.com/>
