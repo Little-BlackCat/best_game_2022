@@ -1,6 +1,6 @@
 .env
 *.log
-logs
+logs/
 *.csv
 __pycache__/
 .vscode
