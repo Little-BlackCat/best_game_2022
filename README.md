@@ -30,18 +30,22 @@ Create database in pgAdmin4.
 ![Create database](https://github.com/Little-BlackCat/best_game_2022/blob/main/Pics/Create%20Database.JPG)
 
 Then, create Python script to build table and schemas for receiving data from extraction. The full script file is in [here](https://github.com/Little-BlackCat/best_game_2022/blob/main/dags/helpers/create_tables.py).
+
 ---
 **step 2 : Extraction**
 
 Next, create the data extractor Python scripts. The goal of these scripts are to create a data frame that can be loaded into warehouse using the PostgreSQL-connector-Python library. The full scripts file are found in [here](https://github.com/Little-BlackCat/best_game_2022/tree/main/dags).
+
 ---
 **step 3 : Transformation**
 
 The goal of this project is to find the best games of 2022, so the most important thing is the ratings from the sources. Having a high rating shows how popular the game is. The full script to find the best game is in [here](https://github.com/Little-BlackCat/best_game_2022/blob/main/dags/operators/merge_data.py).
+
 ---
 **step 4 : Loading**
 
 For this step create another script that will communicate with tables. the script file can be found [here](https://github.com/Little-BlackCat/best_game_2022/blob/main/dags/operators/update_table.py).
+
 ---
 **step 5 : Aitflow Orchestration and Docker-compose**
 
