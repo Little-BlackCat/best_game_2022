@@ -1,11 +1,9 @@
 import os
 import pandas as pd
 from helpers.get_api import get_api
-# from dotenv import load_dotenv
-# load_dotenv(".env")
 
 # Get API
-api_key = os.getenv('api_key')
+api_key = os.getenv("api_key")
 
 def list_game():
   game_popular_2022 = get_api(api_key)
